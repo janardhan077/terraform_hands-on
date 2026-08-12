@@ -1,0 +1,35 @@
+# Terraform working directory
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Terraform lock file
+# Keep this file in Git
+# .terraform.lock.hcl
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan files
+*.tfplan
+
+# Sensitive/private keys
+*.pem
+*.key
+
+# Environment / secret files
+.env

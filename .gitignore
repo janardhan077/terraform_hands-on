@@ -1,0 +1,13 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Archives and binaries
+*.zip
+*.pem
+
+# Generated AWS CLI files
+dist/
